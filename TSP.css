@@ -1,0 +1,67 @@
+body{
+  text-align: center;
+	font: bold 15px Tahoma;
+	color: white;
+	background: url("map.png") no-repeat center center fixed; 
+	background-size: cover;	
+}
+
+#canMain{
+	display: block;
+	margin: 50px auto;
+	background: #def4f6;
+}
+
+#canPath{
+	display: block;
+	margin: -450px auto;
+}
+
+#wrapper{
+	width: 800px;
+	height: 650px;
+	margin: 10px auto;
+	text-align:center;
+	background-color:black;
+	border-radius:30px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-ms-border-radius:30px;
+	opacity:0.98;
+	-webkit-opacity:0.98;
+	-moz-opacity:0.98;
+	-ms-opacity:0.98;
+}
+
+.button {
+	position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 1.5em;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    width: 70px;
+	text-align: center;
+	cursor: pointer;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+.button:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
