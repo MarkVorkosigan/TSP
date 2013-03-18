@@ -1,3 +1,5 @@
+//Code by theindiancoder
+
 canvas = document.getElementById('canMain');
 ctx = canvas.getContext('2d');
 canvasPath = document.getElementById('canPath');
